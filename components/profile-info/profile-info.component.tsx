@@ -1,4 +1,5 @@
 import Polygon from '@/icons/polygon';
+import { DEFAULT_USER_FIELDS } from '@/pages';
 import React, { FC } from 'react';
 import { CiLocationOn } from 'react-icons/ci';
 import {
@@ -10,7 +11,7 @@ import {
 } from 'react-icons/fi';
 import Badge from '../badge/badge.component';
 import Button from '../button/button.component';
-import { DEFAULT_USER_FIELDS } from '../user/user.component';
+
 import styles from './ProfileInfo.module.scss';
 
 type ProfileInfoProps = {

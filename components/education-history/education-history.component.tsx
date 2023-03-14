@@ -1,6 +1,7 @@
+import { DEFAULT_USER_FIELDS } from '@/pages';
 import React, { FC } from 'react';
 import Education from '../education/education.component';
-import { DEFAULT_USER_FIELDS } from '../user/user.component';
+
 import styles from './EducationHistory.module.scss';
 
 type EducationHistoryProps = {

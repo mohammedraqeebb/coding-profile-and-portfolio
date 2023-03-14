@@ -2,7 +2,6 @@ import React, { FC } from 'react';
 import styles from './FormNavbar.module.scss';
 import { FiChrome } from 'react-icons/fi';
 import { DEFAULT_SHOW_FORM_FIELDS } from '@/pages';
-import { spawn } from 'child_process';
 
 type FormNavbarProps = {
   setShowForm: React.Dispatch<

@@ -1,6 +1,6 @@
 import React, { FC } from 'react';
-import { ProjectProps } from '../project-select/project-select.component';
-import Project from '../project/project.component';
+
+import Project, { ProjectProps } from '../project/project.component';
 import styles from './Projects.module.scss';
 
 type ProjectsProps = {

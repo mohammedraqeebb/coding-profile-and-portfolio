@@ -1,18 +1,4 @@
-import {
-  educationData,
-  playgroundData,
-  projectsData,
-  workExperinceData,
-} from '@/data';
 import React, { FC, useState } from 'react';
-
-import { SelectOption } from '../dropdown-select/dropdown-select.component';
-import { PlaygroundOptionProps } from '../playground-option-select/playground-option-select.component';
-import { ProjectProps } from '../project-select/project-select.component';
-import {
-  DEFAULT_EDUCATION_FORM_FIELDS,
-  DEFAULT_WORK_EXPERIENCE_FIELDS,
-} from '../resume-form/resume-form.component';
 import styles from './User.module.scss';
 
 import {

@@ -6,22 +6,15 @@ type User = {
   profilePictureURL: string;
 };
 
-type PlaygroundType = 'HTML/CSS' | 'REACT' | 'NODE' | 'HTML/CSS/JS';
-
 export type ProjectProps = {
   id: string;
   title: string;
-  playgroundType: PlaygroundType;
+  playgroundType: 'HTML/CSS';
   lastUsed: string;
   contributors: Partial<User>[];
 };
 
-const Project: FC<ProjectProps> = ({
-  title,
-  playgroundType,
-  lastUsed,
-  contributors,
-}) => {
+const Project: FC<ProjectProps> = ({ title, playgroundType }) => {
   return (
     <div className={styles.project_container}>
       <div className={styles.image_container}></div>

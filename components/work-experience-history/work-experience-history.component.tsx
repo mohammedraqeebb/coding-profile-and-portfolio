@@ -1,5 +1,6 @@
+import { DEFAULT_USER_FIELDS } from '@/pages';
 import React, { FC } from 'react';
-import { DEFAULT_USER_FIELDS } from '../user/user.component';
+
 import WorkExperience from '../work-experience/work-experience.component';
 import styles from './WorkExperienceHistory.module.scss';
 

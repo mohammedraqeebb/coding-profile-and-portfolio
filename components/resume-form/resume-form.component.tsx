@@ -4,9 +4,9 @@ import EducationForms from '../education-forms/education-forms.component';
 
 import WorkExperienceForms from '../work-experience-forms/work-experience-forms.component';
 import styles from './ResumeForm.module.scss';
-import { v4 as uuidv4 } from 'uuid';
+
 import { DEFAULT_USER_FIELDS } from '@/pages';
-import InputBox from '../Input/input.component';
+
 import TextAreaBox from '../textarea/textarea.component';
 
 type ResumeFormProps = {
