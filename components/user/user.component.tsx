@@ -56,7 +56,6 @@ const User: FC<UserProps> = ({
   showUserProfile,
   setShowUserProfile,
   user,
-  setUser,
 }) => {
   const [showPortfolio, setShowPortfolio] = useState(true);
   return (
