@@ -1,7 +1,8 @@
+import { DEFAULT_USER_FIELDS } from '@/pages';
 import { getFormattedDate } from '@/util/format-date';
 import { link } from 'fs';
 import React, { FC } from 'react';
-import { DEFAULT_USER_FIELDS } from '../user/user.component';
+
 import styles from './WorkExperience.module.scss';
 type WorkExperienceProps = {
   workExperience: typeof DEFAULT_USER_FIELDS.resume.workExperiences[0];

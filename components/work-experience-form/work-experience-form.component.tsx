@@ -117,7 +117,10 @@ const WorkExperienceForm: FC<WorkExperienceFormProps> = ({
           </p>
           <div className={styles.resposibilities_container}>
             {resposibilities.map((currentResponsibility) => (
-              <div className={styles.responsibility_container}>
+              <div
+                key={currentResponsibility.id}
+                className={styles.responsibility_container}
+              >
                 <input
                   className={styles.responsibility_input}
                   onChange={(event) =>
