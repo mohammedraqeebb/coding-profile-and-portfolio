@@ -1,0 +1,17 @@
+.stats_section {
+  display: flex;
+  gap: 24px;
+  flex-direction: column;
+  .stats_title {
+    font-size: 24px;
+    line-height: 32px;
+    color: #181818;
+    font-weight: bold;
+  }
+  .stats_container {
+    display: flex;
+    align-self: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+}

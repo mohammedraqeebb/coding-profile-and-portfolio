@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  list-style-type: none;
+}
+a {
+  color: black;
+  padding: 8px;
+  border: 1px solid #e4e4e7;
+  border-radius: 5px;
+}

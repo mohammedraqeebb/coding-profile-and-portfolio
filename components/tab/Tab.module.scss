@@ -1,0 +1,17 @@
+.tab_container {
+  width: 100%;
+  display: flex;
+  padding: 8px 24px;
+  justify-content: space-between;
+  border: 1px solid #e4e4e7;
+  align-items: center;
+  border-radius: 12px;
+  .buttons_left {
+    display: flex;
+    gap: 24px;
+  }
+  .buttons_right {
+    display: flex;
+    gap: 8px;
+  }
+}

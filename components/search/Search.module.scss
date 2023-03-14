@@ -1,0 +1,25 @@
+.search_container {
+  position: relative;
+  width: 368px;
+
+  input {
+    border-radius: 5px;
+    width: 100%;
+    padding: 9px 13px 9px 30px;
+    border: 1px solid #f7f7f7;
+    background: white;
+
+    &::placeholder {
+      text-transform: capitalize;
+    }
+    &:focus {
+      border: 1px solid #3436ac;
+    }
+  }
+  .search_icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 13px;
+  }
+}

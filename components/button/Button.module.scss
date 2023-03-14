@@ -1,0 +1,76 @@
+@import '../../partials/variables';
+
+.container {
+  display: flex;
+  align-self: flex-start;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  .button_contents {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    svg {
+      margin: auto 0;
+    }
+    span {
+      &:first-letter {
+        text-transform: uppercase;
+      }
+    }
+  }
+}
+
+.primary {
+  background: $color_primary_600;
+  color: white;
+  transition: all 0.3s ease;
+  &:hover {
+    background: $color_primary_700;
+    color: white;
+  }
+}
+.secondary {
+  background: #f4f4f5;
+  color: black;
+  border: 1px solid transparent;
+  transition: all 0.3s ease;
+  &:hover {
+    background: #e4e4e7;
+  }
+  &:hover {
+    border: 1px solid $color_primary_600;
+  }
+}
+.tertiary {
+  background: #f4f4f5;
+  color: $color_primary_600;
+
+  &:focus {
+    background: $color_primary_600;
+    color: white;
+  }
+}
+.base {
+  font-size: 14;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 8px 16px;
+}
+
+.large {
+  font-size: 12;
+  line-height: 16px;
+  font-weight: 600;
+  padding: 8px 20px;
+}
+
+.small {
+  font-size: 10;
+  line-height: 12px;
+  font-weight: 600;
+  padding: 8px 12px;
+}

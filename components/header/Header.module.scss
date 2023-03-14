@@ -1,0 +1,59 @@
+.header_container {
+  display: flex;
+  justify-content: space-between;
+  width: 1024px;
+  height: 52px;
+  margin-top: 20px;
+  align-items: center;
+  .codedamn_logo {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 32px;
+  }
+  .header_right {
+    display: flex;
+    gap: 24px;
+    height: 42px;
+    align-items: center;
+    .profile_icons {
+      display: flex;
+      gap: 24px;
+      .lightning_container {
+        display: flex;
+        gap: 4px;
+        align-items: center;
+      }
+      .notification_container {
+        position: relative;
+        display: flex;
+        align-items: center;
+        .notification_number_container {
+          right: -4px;
+          top: 2px;
+          position: absolute;
+          background: #f38dbf;
+          color: white;
+          border-radius: 50%;
+          height: 16px;
+          width: 16px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          .notification_number {
+            font-size: 12px;
+          }
+        }
+      }
+      .profile_image_container {
+        width: 42px;
+        height: 42px;
+        position: relative;
+        .polygon_container {
+          position: absolute;
+          right: -5px;
+          top: -5px;
+        }
+      }
+    }
+  }
+}

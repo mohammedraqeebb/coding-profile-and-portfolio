@@ -1,0 +1,47 @@
+.portfolio_form_container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+
+  .section_header {
+    display: flex;
+    justify-content: space-between;
+    width: 627px;
+    .section_title {
+      font-size: 24px;
+      line-height: 32px;
+      font-weight: bold;
+    }
+    .section_right_heading {
+      font-size: 16px;
+      color: #71717a;
+    }
+  }
+  .playgrounds_section {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    .playground_data {
+      align-self: flex-start;
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+  }
+  .projects_section {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    .projects_container {
+      align-self: flex-start;
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+  }
+  .submit_buttons {
+    display: flex;
+    gap: 12px;
+    align-self: flex-end;
+  }
+}

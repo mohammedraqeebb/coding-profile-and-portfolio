@@ -1,0 +1,91 @@
+.playground_option_container {
+  align-self: flex-start;
+  padding: 8px;
+  display: flex;
+  gap: 20px;
+  background: #fafafa;
+  border: 1px solid #f4f4f5;
+  border-radius: 8px;
+  width: 304px;
+  .playground_logo {
+    width: 23px;
+  }
+  .playground_details_container {
+    display: flex;
+    gap: 4px;
+    flex-direction: column;
+    .playground_option_header {
+      display: flex;
+      justify-content: space-between;
+      .playground_title {
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 28px;
+        text-transform: lowercase;
+        &::first-letter {
+          text-transform: uppercase;
+        }
+      }
+    }
+
+    .playground_info {
+      align-self: flex-start;
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      height: 20px;
+      .playground_type {
+        font-size: 14px;
+        text-transform: uppercase;
+        color: #71717a;
+        line-height: 20px;
+      }
+      .last_used {
+        font-size: 12px;
+        line-height: 20px;
+        text-transform: lowercase;
+        color: #71717a;
+      }
+      .playground_info_divider_container {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .playground_info_divider {
+          position: absolute;
+          height: 4px;
+          width: 4px;
+          background: #71717a;
+          border-radius: 50%;
+        }
+      }
+    }
+    .shared_users_container {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      .images {
+        display: flex;
+
+        .first_image {
+          margin-right: -4px;
+        }
+      }
+      .shared_users {
+        word-wrap: break-word;
+        font-size: 12px;
+        color: #71717a;
+        strong {
+          text-transform: capitalize;
+        }
+        &::first-letter {
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+  &.selected {
+    background: #eef2ff;
+    border: 1px solid #918bee;
+  }
+}

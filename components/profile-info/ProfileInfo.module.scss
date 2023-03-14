@@ -1,0 +1,81 @@
+.profile_info_container {
+  display: flex;
+  flex-direction: column;
+  .cover_photo_container {
+    height: 180px;
+    position: relative;
+    background-image: url('../../static/images/Rectangle.png');
+    .edit_button_container {
+      position: absolute;
+      right: 24px;
+      top: 24px;
+    }
+  }
+  .profile_info {
+    padding: 24px 24px 0px 188px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    position: relative;
+    .profile_photo_container {
+      border: 1px solid white;
+      border-radius: 50%;
+      position: absolute;
+      left: 24px;
+      top: -70px;
+      .polygon_container {
+        position: absolute;
+        left: 110px;
+        top: 110px;
+      }
+    }
+    .name_container {
+      .name_and_status {
+        display: flex;
+        gap: 12px;
+        align-items: center;
+        .name {
+          font-size: 28px;
+          font-weight: bold;
+          line-height: 120%;
+        }
+      }
+      .about {
+        font-size: 16px;
+        line-height: 24px;
+        color: #71717a;
+      }
+      .location {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+        p {
+          font-size: 16px;
+          line-height: 24px;
+          color: #a1a1aa;
+        }
+      }
+    }
+
+    .skills_container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      span {
+        padding: 8px 12px;
+        background: #f4f4f5;
+        border-radius: 4px;
+      }
+    }
+    .socials_and_buttons_container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .socials_container,
+      .buttons_container {
+        display: flex;
+        gap: 16px;
+      }
+    }
+  }
+}

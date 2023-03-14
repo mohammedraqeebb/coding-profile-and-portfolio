@@ -1,0 +1,10 @@
+.social_form_container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  .submit_buttons {
+    display: flex;
+    gap: 12px;
+    align-self: flex-end;
+  }
+}

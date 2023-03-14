@@ -1,0 +1,26 @@
+.projects_section {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  .section_header {
+    display: flex;
+    justify-content: space-between;
+
+    .section_title {
+      font-size: 24px;
+      line-height: 32px;
+      font-weight: bold;
+    }
+    .section_right_heading {
+      font-size: 16px;
+      color: #4f46e5;
+      font-weight: 600;
+    }
+  }
+  .projects_container {
+    align-self: flex-start;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+}

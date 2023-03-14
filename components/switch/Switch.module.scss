@@ -1,0 +1,49 @@
+.toggle_switch_container {
+  width: 44px;
+  height: 22px;
+  border-radius: 8px;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  border: 1px solid transparent;
+  background-color: #e4e4e7;
+  .toggle_switch {
+    width: 20px;
+    height: 22px;
+    border-radius: 50%;
+    background: white;
+  }
+  &:hover {
+    background-color: #d4d4d8;
+  }
+  &:focus {
+    border: 1px solid 4f46e5;
+  }
+}
+.radio_button_container {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: white;
+  .checked {
+    position: relative;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: blue;
+    div {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: white;
+    }
+  }
+  border: 1px solid #e4e4e7;
+  &:hover {
+    background: #eef2ff;
+  }
+}
